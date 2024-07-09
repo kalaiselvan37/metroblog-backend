@@ -10,7 +10,7 @@ app.use(morgan('dev'))
 app.use(compression())
 app.use('/uploads', express.static('uploads'))
 app.use(cors({
-  origin: 'https://metroblog-frontend.vercel.app',
+  origin: true,
   credentials: true
 }))
 
