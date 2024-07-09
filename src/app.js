@@ -25,6 +25,6 @@ app.options('*', cors(corsOptions), (req, res) => {
 });
 
 app.use('/', router);
-app.get('/', (req, res) => res.send('Welcome to Metro Blogs'));
+app.get('/', (req, res) => res.send('Welcome  to Metro Blogs'));
 
 export default app;
